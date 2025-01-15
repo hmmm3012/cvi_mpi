@@ -1,7 +1,4 @@
 SHELL = /bin/bash
-#
-CHIP_ARCH	?= CV181X
-#
 ifneq ($(BUILD_PATH),)
 include $(BUILD_PATH)/.config
 endif
